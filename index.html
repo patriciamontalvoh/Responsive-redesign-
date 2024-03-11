@@ -1,32 +1,303 @@
-  <!-- TO RUN IN BROWSER:
-    1. Install vscode extension Name: open in `browser open-in-browser` by TechER
-    2. Right click html file and either run in default browser or another browser
-  -->
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS Studio</title>
-    <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
   </head>
 
-  <!-- page content goes into <body> -->
   <body>
-    <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
+
+      <div class="header-container">
+        <img class="header-logo" alt="State of Rhode Island, Department of Health" src="./assets/transparent_white.png"/>
+        <div class="header-title-container">    
+            <p class="header-text-01">State of Rhode Island</p>
+            <p class="header-text-02">Department of Health</p>
+        </div>
+        <div class="language-link">
+          <p class="language-title">EN</p>
+        </div>
+      </div>
+
+      <div class="pages-container">
+
+        <div class="menu-button-01">    
+          <p class="menu-title-current">Home</p>
+        </div>
+
+        <div class="menu-button-02">    
+          <p class="menu-title">About us</p>
+        </div>
+
+        <div class="menu-button-02">    
+          <p class="menu-title">Diseases</p>
+        </div>
+
+        <div class="menu-button-02">    
+          <p class="menu-title">Health & Wellness</p>
+        </div>
+        <div class="menu-button-02">    
+          <p class="menu-title">Food & Environment</p>
+        </div>
+        <div class="menu-button-02">    
+          <p class="menu-title">Laboratory</p>
+        </div>
+        <div class="menu-button-02">    
+          <p class="menu-title">Birth & Marriage</p>
+        </div>
+
+        <div class="menu-button-03">    
+          <p class="menu-title">Licensing</p>
+        </div>
+
     </div>
-    <hr/>
-    <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
-    </div>
+
+      <div class="search-bar-container">
+        <div class="search-bar-content">
+        <div class="search-container">    
+         <p class="main-title ">Your health matters</p>
+         <div class="search-tool">
+          <img class="search-icon" alt="search-icon" src="./assets/search-icon.png"/>
+          <p class="search-title ">How can we help you?</p>
+         </div>
+         <div class="search-link">
+          <img class="alert-icon" alt="alert-icon" src="./assets/White_alert.png"/>
+          <p class="covid-title">Covid 19 info</p>
+         </div>
+         </div>  
+        </div>
+        <div class="help-link">
+          <p class="help-title">?</p>
+         </div> 
+      </div>
+
+      <div class="line"></div>
+      
+      <div class="topics-container">
+          <p class="section-tittle">Topics of Interest</p>
+          <div class="line"> </div> 
+          <div class="line-box"> </div> 
+          <div class="topics-content">
+            <div class="lateral-margin-box"></div>
+            <div class="main-image-container">
+              <img class="image-shape" alt="Topic: National Children's Dental Health Month " src="./assets/National Children's Dental Health Month.png"/>
+              <p class="image-title ">National Children's Dental Health Month</p>
+              <p class="image-subtitle ">Get support with teaching children good oral health habits</p>
+            </div>
+            <div class="indetermidiate-margin-box"></div>
+            <div class="vertical-line"> </div>
+            <div class="indetermidiate-margin-box"></div>
+            <div class="main-image-container">
+            <img class="image-shape" alt="Topic: Prenatal Care Matters" src="./assets/Prenatal Care Matters.png"/>
+            <p class="image-title ">Prenatal Care Does Really Matter</p>
+            <p class="image-subtitle ">Your first step towards a healthier tomorrow</p>
+          </div>
+          <div class="indetermidiate-margin-box"></div>
+          <div class="vertical-line"> </div>
+          <div class="indetermidiate-margin-box"></div>
+            <div class="main-image-container">
+              <img class="image-shape" alt="Topic: Are You Prepared for a Winter Storm?" src="./assets/Winter Storm.png"/>
+              <p class="image-title ">Are You Prepared for a Winter Storm?</p>
+              <p class="image-subtitle ">Learn how to be #WinterReady</p>
+            </div>
+            <div class="indetermidiate-margin-box"></div>
+            <div class="vertical-line"> </div>
+            <div class="indetermidiate-margin-box"></div>
+            <div class="main-image-container">
+              <img class="image-shape" alt="Topic: assets/Kick Diabetes Out of Your Family Tree" src="./assets/Diabetes.png"/> 
+              <p class="image-title ">Kick Diabetes Out of Your Family Tree</p>
+              <p class="image-subtitle ">With Ready for Health. a diabetes prevention</p>
+            </div>
+            <div class="lateral-margin-box">
+              <div class="more-link">
+                <p class="help-title">+</p>
+               </div>   
+            </div>
+        </div>                  
+      </div>         
+
+      <div class="line"></div>
+
+      <div class="news-container">
+        <p class="section-tittle">News</p>
+          <div class="line"> </div> 
+          <div class="line-box"> </div> 
+          <div class="news-content">
+            <div class="lateral-margin-box-02"></div>
+            <div class="main-image-container">
+              <img class="image-shape" alt="News 01" src="./assets/News01.png"/>
+              <p class="image-date">02/07/2024 13:45 EST</p>
+              <p class="image-title ">Rizo-Lopez Foods Recalling Dairy Products Because of Possible Health Risk</p>
+            </div>
+            <div class="indetermidiate-margin-box-02"></div>
+            <div class="vertical-line"> </div>  
+            <div class="indetermidiate-margin-box-02"></div>
+            <div class="main-image-container">
+            <img class="image-shape" alt="News 02" src="./assets/News02.png"/>
+            <p class="image-date">02/07/2024 08:45 EST</p>
+              <p class="image-title ">RIDOH Honors Health Professional Loan Repayment Program Recipients and Donors at State House Ceremony</p>
+            </div>
+            <div class="indetermidiate-margin-box-02"></div>
+            <div class="vertical-line"> </div>  
+            <div class="indetermidiate-margin-box-02"></div>
+            <div class="main-image-container">
+            <img class="image-shape" alt="News 03" src="./assets/News03.png"/>
+            <p class="image-date">01/29/2024 15:45 EST</p>
+              <p class="image-title ">RIDOH and RIAG Make Public The Centurion Foundation HCA application</p>
+            </div>
+            <div class="lateral-margin-box-02">
+              <div class="more-link-02">
+                <p class="help-title">+</p>
+               </div>   
+            </div>
+        </div> 
+      </div>
+  
+      <div class="line"></div>
+      <div class="links-container">
+        <div class="quick-links-container"> 
+        <p class="section-tittle-02">Quick links</p>
+        <div class="line-02"> </div> 
+        <div class="line-box-02"> </div> 
+        <div class="links-access-container"> 
+          <div class="links-01"> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Find a Flu Clinic</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Right Care</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">COVID-19 Vaccines</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Healthcare</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Professionals</p>
+            </div> 
+          </div> 
+          <div class="links-02"> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Health Services</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Health Insurance</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Primary Care</p>
+            </div> 
+            <div class="link-button-01"> 
+              <p class="link-tittle-white">Urgent Care</p>
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+
+      <div class="vertical-line-02"> </div>  
+
+        <div class="we-can-help-container"> 
+        <p class="section-tittle-03">We can help...</p>
+        <div class="line-03"> </div> 
+        <div class="line-box-02"> </div>
+        <div class="links-access-02-container">  
+        <div class="link-button-02"> 
+          <p class="link-tittle-black">Get vital records</p>
+        </div> 
+        <div class="link-button-02"> 
+          <p class="link-tittle-black">File a complaint</p>
+        </div> 
+        <div class="link-button-02"> 
+          <p class="link-tittle-black">Renew your license</p>
+        </div> 
+        <div class="link-button-02"> 
+          <p class="link-tittle-black">Enroll in the special needs registry</p>
+        </div> 
+        <div class="link-button-02"> 
+          <p class="link-tittle-black">Request immunization records</p>
+        </div> 
+      </div> 
+      </div> 
+    </div> 
+
+     <div class="other-links-container"> 
+      <p class="link-text-01">Contact Us</p> 
+      <p class="link-text-01">Jobs</p> 
+      <p class="link-text-01">Funding Opportunities</p> 
+      <p class="link-text-01">Services Data Public Records Requests</p> 
+      <p class="link-text-01">Programs</p> 
+      <p class="link-text-01">Topics</p> 
+      <p class="link-text-01">News</p> 
+    </div> 
+
+    <div class="line-white"></div> 
+
+
+    <div class="main-footer-container"> 
+      <div class="main-footer-text-container"> 
+        <div class="main-footer-lateral-margin"></div> 
+        <div class="main-footer-text"> 
+          <p class="main-footer-text-01">Department of Health</p> 
+          <p class="main-footer-text-01">3 capital Hill</p> 
+          <p class="main-footer-text-02">Providence, FI 02908</p> 
+            <div class="footer-mixed-text"> 
+              <p class="main-footer-text-02">Phone:</p> 
+              <p class="main-footer-text-01"> 401-222-5960</p> 
+            </div>
+            <div class="footer-mixed-text"> 
+              <p class="main-footer-text-02">After Hours Phone:</p> 
+              <p class="main-footer-text-01"> 401-276-8046</p> 
+            </div> 
+          <p class="main-footer-text-03">More information</p> 
+        </div> 
+        <div class="main-footer-int-margin"></div> 
+        <div class="main-footer-text"> 
+          <p class="main-footer-text-01">Genter for Vital Records</p> 
+          <p class="main-footer-text-01">Simpson Hall</p> 
+          <p class="main-footer-text-02">6 Harrington Road Cranston, FI 02920</p> 
+            <div class="footer-mixed-text"> 
+              <p class="main-footer-text-02">Phone:</p> 
+              <p class="main-footer-text-01"> 401-222-5980</p> 
+            </div>
+            <div class="footer-mixed-text"> 
+              <p class="main-footer-text-02">After Hours Phone:</p> 
+              <p class="main-footer-text-01"> 401-276-8048</p> 
+            </div> 
+          <p class="main-footer-text-03">More information</p> 
+        </div> 
+          <div class="main-footer-int-margin"></div> 
+          <div class="main-footer-text"> 
+            <p class="main-footer-text-01">State Health Laboratory</p> 
+            <p class="main-footer-text-01">50 Orms St Eapard</p> 
+            <p class="main-footer-text-02">Providence, Al 02904-2222</p> 
+              <div class="footer-mixed-text"> 
+                <p class="main-footer-text-02">Phone:</p> 
+                <p class="main-footer-text-01"> 401-222-5600</p> 
+              </div>
+            <p class="main-footer-text-03">More information</p> 
+          </div> 
+            <div class="main-footer-lateral-margin"></div> 
+      </div> 
+      <img class="footer-image" alt="footer-image" src="./assets/Footer.png"/>
+    </div> 
+
+    <div class="line-white"></div> 
+
+    <div class="secondary-footer-container "> 
+      <div class="secondary-footer-01-container"> 
+        <img class="footer-logo" alt="State of Rhode Island, Department of Health" src="./assets/transparent_white.png"/>
+        <p class="footer-text-01">State of Rhode Island</p>
+        <p class="footer-text-02">Department of Health</p>
+      </div>
+      <div class="secondary-footer-02-container"> 
+        <p class="footer-text-03">Official Website of the State of Rhode Island</p>
+        <p class="footer-text-03">© 2024 Department of Health</p>
+        <img class="footer-logo-02" alt="Public Health Accreditation Board Certified" src="./assets/PHAB.png"/>
+        <p class="footer-text-03">Public Health Accreditation Board Certified</p>
+      </div>
+    </div> 
+
+
   </body>
 
 </html>
